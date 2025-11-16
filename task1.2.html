@@ -3,13 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 2</title>
+    <title>IT Trends</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <A href="index.html">Index</A>
-   <A href="task1.1.html">About me</A>
-   <A href="task1.2.html">Temp</A>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Tech<span>Trends</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#trending">Trending Areas</a></li>
+                    <li><a href="#forms">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Explore the Future of Technology</h1>
+            <p>Discover the most rapidly evolving areas in information technology that are shaping digital world.</p>
+            <a href="#trending" class="cta-button">Explore Trends</a>
+        </div>
+    </section>
+
+    <!-- Trending IT Areas Section -->
+    <section id="trending" class="trending-areas">
+        <div class="container">
+            <h2>Trending IT Areas</h2>
+            <div class="areas-grid">
+                <!-- Area 1 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Artificial Intelligence & Machine Learning</h3>
+                        <p>AI and ML are revolutionizing industries by enabling computers to learn, adapt, and perform tasks that previously required human intelligence.</p>
+                    </div>
+                </div>
+
+                <!-- Area 2 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cybersecurity</h3>
+                        <p>With increasing digital threats, cybersecurity focuses on protecting systems, networks, and data from digital attacks and unauthorized access.</p>
+                    </div>
+                </div>
+
+                <!-- Area 3 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cloud Computing</h3>
+                        <p>Cloud technology enables on-demand access to computing resources, transforming how businesses store data and run applications.</p>
+                    </div>
+                </div>
+
+                <!-- Area 4 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-link"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Blockchain Technology</h3>
+                        <p>Beyond cryptocurrencies, blockchain offers secure, transparent, and decentralized solutions for various industries including finance and supply chain.</p>
+                    </div>
+                </div>
+
+                <!-- Area 5 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Web Development Frameworks</h3>
+                        <p>Modern frameworks like React, Vue, and Angular are enabling developers to build more interactive and performant web applications.</p>
+                    </div>
+                </div>
+
+                <!-- Area 6 -->
+                <div class="area-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>Internet of Things (IoT)</h3>
+                        <p>IoT connects everyday objects to the internet, enabling data collection, automation, and remote control across various domains.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="forms" class="forms-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="forms-container">
+                <div class="form-card form-modern">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name1">Full Name</label>
+                            <input type="text" id="name1" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email1">Email Address</label>
+                            <input type="email" id="email1" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone3">Phone Number</label>
+                            <input type="tel" id="phone3" placeholder="Your phone number">
+                        </div>
+                        <div class="form-group">
+                              <label for="interest2">Area of Interest</label>
+                              <select id="interest2">
+                                  <option value="">Select an area</option>
+                                  <option value="ai">Artificial Intelligence</option>
+                                  <option value="cyber">Cybersecurity</option>
+                                  <option value="cloud">Cloud Computing</option>
+                                  <option value="blockchain">Blockchain</option>
+                              </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message1">Your Message</label>
+                            <textarea id="message1" rows="4" placeholder="Type your message here"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Avenue, Silicon Valley, CA 94025</p>
+                    <p><i class="fas fa-phone"></i> +7 (999) 777-5555</p>
+                    <p><i class="fas fa-envelope"></i> info@techtrends.ex</p>
+                    <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#trending">Trending Areas</a>
+                    <a href="#forms">Contact Us</a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 TechTrends. For Web Development courses, exercise 2.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
-
-
