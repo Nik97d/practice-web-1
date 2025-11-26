@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Technology Advances Gallery</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="fixed-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>AI Tech Gallery</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#research">Research</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#innovation">Innovation</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#future">Future</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sticky Back to Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        Back to Top
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Recent Advances in Artificial Intelligence</h2>
+                <p>Exploring the cutting-edge developments shaping our future</p>
+                <div class="quick-nav">
+                    <button class="nav-btn" onclick="scrollToSection('multimodal-ai')">
+                        Explore Multimodal AI
+                    </button>
+                    <button class="nav-btn" onclick="scrollToSection('generative-ai')">
+                        Discover Generative AI
+                    </button>
+                    <button class="nav-btn" onclick="scrollToSection('robotics')">
+                        Learn About Robotics
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Category -->
+        <section id="research" class="category-section">
+            <div class="category-header">
+                <h2>AI Research & Development</h2>
+                <p>Breakthrough technologies pushing the boundaries of artificial intelligence</p>
+            </div>
+            
+            <!-- Block 1: Multimodal AI -->
+            <section id="multimodal-ai" class="content-block">
+                <div class="block-header">
+                    <h2>Multimodal AI Systems</h2>
+                    <span class="date-tag">2024</span>
+                </div>
+                <div class="block-content">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop" alt="Multimodal AI visualization">
+                    </div>
+                    <div class="text-content">
+                        <p>Modern AI systems can now process and understand multiple types of data simultaneously - text, images, audio, and video. This breakthrough enables more natural human-computer interactions.</p>
+                        <div class="tech-features">
+                            <div class="feature-card">
+                                <h4>Cross-Modal Understanding</h4>
+                                <p>Connecting different data types for comprehensive analysis</p>
+                            </div>
+                            <div class="feature-card">
+                                <h4>Real-time Processing</h4>
+                                <p>Instant analysis across multiple input streams</p>
+                            </div>
+                            <div class="feature-card">
+                                <h4>Contextual Awareness</h4>
+                                <p>Understanding relationships between different data modalities</p>
+                            </div>
+                        </div>
+                        <button class="learn-more" onclick="showDetails('multimodal')">View Technical Specifications</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Block 2: Generative AI -->
+            <section id="generative-ai" class="content-block">
+                <div class="block-header">
+                    <h2>Generative AI Revolution</h2>
+                    <span class="date-tag">2023-2024</span>
+                </div>
+                <div class="block-content reverse">
+                    <div class="text-content">
+                        <p>Generative models like GPT-4 and DALL-E 3 have transformed creative industries, enabling unprecedented content generation capabilities while raising important questions about authenticity.</p>
+                        <div class="applications-grid">
+                            <div class="app-item">
+                                <strong>Content Creation</strong>
+                                <span>Automated writing, design, and media production</span>
+                            </div>
+                            <div class="app-item">
+                                <strong>Code Generation</strong>
+                                <span>AI-assisted programming and software development</span>
+                            </div>
+                            <div class="app-item">
+                                <strong>Media Synthesis</strong>
+                                <span>Image, video, and audio generation capabilities</span>
+                            </div>
+                        </div>
+                        <button class="learn-more" onclick="showDetails('generative')">Explore Implementation Guides</button>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1677442135330-0f56bd7c23b5?w=500&h=300&fit=crop" alt="Generative AI art">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Applications Category -->
+        <section id="applications" class="category-section">
+            <div class="category-header">
+                <h2>AI Applications & Implementation</h2>
+                <p>Practical applications of AI technology across various industries</p>
+            </div>
+
+            <!-- Block 3: AI in Robotics -->
+            <section id="robotics" class="content-block">
+                <div class="block-header">
+                    <h2>Autonomous Robotics</h2>
+                    <span class="date-tag">2024</span>
+                </div>
+                <div class="block-content">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&h=300&fit=crop" alt="AI Robotics">
+                    </div>
+                    <div class="text-content">
+                        <p>Advanced robotics combined with AI are creating machines that can learn complex tasks through demonstration and adapt to dynamic environments in real-time.</p>
+                        <div class="progress-bars">
+                            <div class="progress-item">
+                                <div class="progress-label">
+                                    <span>Learning Efficiency</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-label">
+                                    <span>Task Accuracy</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-label">
+                                    <span>Environmental Adaptation</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 78%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="learn-more" onclick="showDetails('robotics')">View Industry Applications</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Innovation Category -->
+        <section id="innovation" class="category-section">
+            <div class="category-header">
+                <h2>AI Innovation & Breakthroughs</h2>
+                <p>Groundbreaking developments in artificial intelligence technology</p>
+            </div>
+
+            <!-- Block 4: Healthcare AI -->
+            <section id="healthcare" class="content-block">
+                <div class="block-header">
+                    <h2>Medical AI Breakthroughs</h2>
+                    <span class="date-tag">2024</span>
+                </div>
+                <div class="block-content reverse">
+                    <div class="text-content">
+                        <p>AI systems are revolutionizing healthcare with improved diagnostic accuracy, drug discovery acceleration, and personalized treatment plans.</p>
+                        <div class="impact-stats">
+                            <div class="impact-item">
+                                <div class="impact-number">45%</div>
+                                <div class="impact-text">Faster Diagnosis</div>
+                            </div>
+                            <div class="impact-item">
+                                <div class="impact-number">3.2x</div>
+                                <div class="impact-text">Drug Discovery Speed</div>
+                            </div>
+                            <div class="impact-item">
+                                <div class="impact-number">91%</div>
+                                <div class="impact-text">Diagnostic Accuracy</div>
+                            </div>
+                        </div>
+                        <button class="learn-more" onclick="showDetails('healthcare')">Read Medical Case Studies</button>
+                    </div>
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop" alt="Medical AI">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Impact Category -->
+        <section id="impact" class="category-section">
+            <div class="category-header">
+                <h2>AI Impact & Society</h2>
+                <p>Understanding the broader implications of AI technology</p>
+            </div>
+
+            <!-- Block 5: AI Ethics -->
+            <section id="ethics" class="content-block">
+                <div class="block-header">
+                    <h2>Ethical AI Development</h2>
+                    <span class="date-tag">Ongoing</span>
+                </div>
+                <div class="block-content">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="AI Ethics">
+                    </div>
+                    <div class="text-content">
+                        <p>As AI capabilities grow, so does the importance of developing ethical frameworks, ensuring transparency, and addressing bias in machine learning systems.</p>
+                        <div class="principles-grid">
+                            <div class="principle-card">
+                                <h4>Algorithmic Fairness</h4>
+                                <p>Eliminating bias in algorithms and training datasets</p>
+                            </div>
+                            <div class="principle-card">
+                                <h4>System Transparency</h4>
+                                <p>Explainable AI and comprehensive documentation</p>
+                            </div>
+                            <div class="principle-card">
+                                <h4>Decision Accountability</h4>
+                                <p>Clear responsibility for AI system outcomes</p>
+                            </div>
+                            <div class="principle-card">
+                                <h4>Data Privacy</h4>
+                                <p>Protecting user information and privacy rights</p>
+                            </div>
+                        </div>
+                        <button class="learn-more" onclick="showDetails('ethics')">Review Ethical Guidelines</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Future Category -->
+        <section id="future" class="category-section">
+            <div class="category-header">
+                <h2>Future of AI</h2>
+                <p>Emerging trends and future directions in artificial intelligence</p>
+            </div>
+            <div class="future-content">
+                <div class="future-grid">
+                    <div class="future-card">
+                        <h3>Quantum AI</h3>
+                        <p>Combining quantum computing with machine learning for unprecedented processing power</p>
+                        <button class="future-btn" onclick="showDetails('quantum')">Explore Quantum AI</button>
+                    </div>
+                    <div class="future-card">
+                        <h3>Neuromorphic Computing</h3>
+                        <p>Brain-inspired computing architectures for more efficient AI systems</p>
+                        <button class="future-btn" onclick="showDetails('neuromorphic')">Learn About Neuromorphics</button>
+                    </div>
+                    <div class="future-card">
+                        <h3>AI Safety Research</h3>
+                        <p>Ensuring advanced AI systems remain aligned with human values</p>
+                        <button class="future-btn" onclick="showDetails('safety')">Study AI Safety</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AI Tech Gallery</h3>
+                <p>Exploring the frontier of artificial intelligence research and development.</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Subscribe to updates" class="newsletter-input">
+                    <button class="newsletter-btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Research Areas</h4>
+                <ul>
+                    <li><button class="footer-link" onclick="showDetails('machine-learning')">Machine Learning</button></li>
+                    <li><button class="footer-link" onclick="showDetails('neural-networks')">Neural Networks</button></li>
+                    <li><button class="footer-link" onclick="showDetails('computer-vision')">Computer Vision</button></li>
+                    <li><button class="footer-link" onclick="showDetails('nlp')">Natural Language Processing</button></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@aigallery.com</p>
+                <p>Phone: (555) 123-AITEK</p>
+                <div class="contact-buttons">
+                    <button class="contact-btn" onclick="showContactForm()">Contact Our Team</button>
+                    <button class="contact-btn" onclick="showSupport()">Technical Support</button>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <button class="social-btn" onclick="shareOnTwitter()">Twitter</button>
+                    <button class="social-btn" onclick="shareOnLinkedIn()">LinkedIn</button>
+                    <button class="social-btn" onclick="visitGitHub()">GitHub</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AI Technology Gallery. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Back to Top functionality
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.fixed-header');
+            // Show/hide back to top button
+            if (window.scrollY > 300) {
+                backToTopBtn.style.display = 'block';
+                header.style.backgroundColor = 'rgba(15, 23, 42, 0.95)';
+                header.style.backdropFilter = 'blur(10px)';
+            } else {
+                backToTopBtn.style.display = 'none';
+                header.style.backgroundColor = 'rgba(15, 23, 42, 0.9)';
+                header.style.backdropFilter = 'blur(5px)';
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }
+
+        function showDetails(topic) {
+            const messages = {
+                'multimodal': 'Loading detailed technical specifications for Multimodal AI systems...',
+                'generative': 'Opening generative AI implementation guides and use cases...',
+                'robotics': 'Displaying robotics industry applications and technical documentation...',
+                'healthcare': 'Loading medical AI case studies and clinical research...',
+                'ethics': 'Opening ethical framework documentation and guidelines...',
+                'quantum': 'Exploring quantum AI research and development...',
+                'neuromorphic': 'Learning about neuromorphic computing architectures...',
+                'safety': 'Studying AI safety research and alignment...',
+                'machine-learning': 'Loading machine learning research and resources...',
+                'neural-networks': 'Opening neural networks documentation...',
+                'computer-vision': 'Loading computer vision applications...',
+                'nlp': 'Opening natural language processing resources...'
+            };
+            alert(messages[topic] || 'Loading detailed information...');
+        }
+
+        function showContactForm() {
+            alert('Opening contact form. This would typically show a modal with contact fields.');
+        }
+
+        function showSupport() {
+            alert('Redirecting to technical support portal...');
+        }
+
+        function shareOnTwitter() {
+            alert('Sharing on Twitter: Check out this amazing AI Technology Gallery!');
+        }
+
+        function shareOnLinkedIn() {
+            alert('Sharing on LinkedIn: Exploring recent advances in AI technology.');
+        }
+
+        function visitGitHub() {
+            alert('Redirecting to our GitHub repository with open-source AI projects.');
+        }
+    </script>
+</body>
+</html>
