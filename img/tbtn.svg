@@ -1,0 +1,17 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="minimalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#2980b9"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="30" cy="30" r="25" fill="url(#minimalGrad)" opacity="0.9"/>
+  
+  <!-- Simple Arrow -->
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <line x1="30" y1="20" x2="30" y2="40"/>
+    <line x1="30" y1="20" x2="25" y2="25"/>
+    <line x1="30" y1="20" x2="35" y2="25"/>
+  </g>
+</svg>
