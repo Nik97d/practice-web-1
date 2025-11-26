@@ -1,0 +1,42 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5576c"/>
+      <stop offset="100%" stop-color="#f093fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="400" fill="#f8f9fa"/>
+  
+  <!-- Medical Cross -->
+  <rect x="230" y="120" width="40" height="120" fill="#f5576c"/>
+  <rect x="190" y="160" width="120" height="40" fill="#f5576c"/>
+  
+  <!-- DNA Strand -->
+  <path d="M150,250 Q180,230 210,250 Q240,270 210,290 Q180,310 150,290 Q120,270 150,250" fill="none" stroke="#4caf50" stroke-width="3"/>
+  <circle cx="150" cy="250" r="5" fill="#4caf50"/>
+  <circle cx="210" cy="250" r="5" fill="#4caf50"/>
+  <circle cx="180" cy="230" r="5" fill="#4caf50"/>
+  <circle cx="180" cy="310" r="5" fill="#4caf50"/>
+  <circle cx="150" cy="290" r="5" fill="#4caf50"/>
+  <circle cx="210" cy="290" r="5" fill="#4caf50"/>
+  
+  <!-- Brain Scan Visualization -->
+  <ellipse cx="350" cy="200" rx="50" ry="30" fill="none" stroke="#2196f3" stroke-width="2"/>
+  <ellipse cx="350" cy="200" rx="30" ry="20" fill="none" stroke="#2196f3" stroke-width="2"/>
+  <ellipse cx="350" cy="200" rx="15" ry="10" fill="none" stroke="#2196f3" stroke-width="2"/>
+  
+  <!-- Medical Chart -->
+  <rect x="300" y="250" width="120" height="80" fill="white" stroke="#666" stroke-width="2"/>
+  <polyline points="320,280 340,260 360,290 380,270 400,300" fill="none" stroke="#f5576c" stroke-width="3"/>
+  
+  <!-- Title -->
+  <text x="250" y="50" text-anchor="middle" font-family="Arial" font-size="24" fill="#2c3e50" font-weight="bold">AI in Healthcare</text>
+  <text x="250" y="80" text-anchor="middle" font-family="Arial" font-size="16" fill="#666">Medical Diagnosis & Treatment</text>
+  
+  <!-- Heartbeat -->
+  <polyline points="100,280 120,260 140,280 160,240 180,280" fill="none" stroke="#f5576c" stroke-width="3"/>
+  
+  <!-- Pills -->
+  <rect x="100" y="320" width="40" height="15" rx="7" fill="#2196f3"/>
+  <rect x="400" y="320" width="40" height="15" rx="7" fill="#4caf50"/>
+</svg>
